@@ -1,0 +1,27 @@
+{
+  "name": "Employee",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "employeeID": {
+      "type": "number",
+      "id": true
+    },
+    "employeeFullName": {
+      "type": "string"
+    },
+    "employeeCode": {
+      "type": "string"
+    },
+    "employeeMobile": {
+      "type": "string"
+    },
+    "employeePosition": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

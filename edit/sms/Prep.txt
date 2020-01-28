@@ -1,0 +1,1 @@
+Fecha:2019-11-26,Hora:16:26:04,Cola:Prep,Recibidas:230,Atendidas:230,NS:97.39%,Meta:80%

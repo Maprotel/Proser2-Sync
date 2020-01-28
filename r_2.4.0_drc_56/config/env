@@ -1,0 +1,109 @@
+# TEST CONNECTION
+FOO=bar
+NODE_ENV='development'
+
+# CALLCENTER SUBTITLES
+CALLCENTER_NAME=ProSer Reports
+CALLCENTER_SLOGAN=Inversiones DRC
+CALLCENTER_LOGO=/assets/img/logos_client/client-logo.png
+CALLCENTER_SITE=https://www.inversionesdrc.com/
+# ------------------------------------------------------------------------
+
+# PORT
+DEFAULT_PORT=3161
+# ------------------------------------------------------------------------
+
+# MAIN DATABASE CONNECTION
+CONNECTION_LIMIT=10
+REPORTS_DB_HOST=localhost
+REPORTS_DB_PORT=3306
+REPORTS_DB_USER=root
+REPORTS_DB_PASSWORD=M4pr0t3l
+
+# MAIN DATABASE NAME
+PROSER_REPORTS_DATABASE=proser_rep_drc_dos_caminos
+
+# INVENTORY DATABASE CONNECTION
+CONNECTION_LIMIT=10
+INVENTORY_DB_HOST=localhost
+# ***** originInventory
+INVENTORY_DB_USER_READ=readmaprotel
+INVENTORY_DB_PASSWORD_READ=M4pr0t3l
+# ***** destinyInventory
+INVENTORY_DB_USER_WRITE=maprotel
+INVENTORY_DB_PASSWORD_WRITE=M4pr0t3l
+# INVENTORY DATABASE NAMES
+PROSER_INVENTORY_DATABASE=proser_inv_drc_dos_caminos
+
+# ORIGIN DATABASE CONNECTION
+CONNECTION_LIMIT=10
+ORIGIN_DB_HOST=10.30.4.50
+ORIGIN_DB_USER=readmaprotel
+ORIGIN_DB_PASSWORD=M4pr0t3l
+ 
+# ORIGIN_DB_HOST=10.30.4.50
+# ORIGIN_DB_HOST=172.20.0.234
+# ------------------------------------------------------------------------
+
+# DATABASES NAMES
+ORIGIN_ASTERISK_DB=asterisk
+ORIGIN_ASTERISKCDR_DB=asteriskcdrdb
+ORIGIN_CALLCENTER_DB=call_center
+# ------------------------------------------------------------------------
+
+# RECORDING PATH
+## MAIN PATH
+ORIGIN_RECORDING_PATH=/var/spool/asterisk/monitor
+ORIGIN_QUEUE_JSON=http://172.20.0.234/proser/bk_TS/src/public/realtime/realtime.json
+DESTINY_FILE_PATH=/var/www/html/proser_reports/src/public/audio/
+
+
+# SMS PATH
+DESTINY_FILE_PATH_SMS_LOCAL=/var/www/html/proser/proser_reports/src/public/sms/
+DESTINY_FILE_PATH_SMS_EXTERNAL=/var/www/html/proser/proser_reports/proser-backend/src/public/sms/
+DESTINY_FILE_PATH_SMS_MOUNT=''
+#DESTINY_FILE_PATH_SMS_MOUNT='mount -t cifs //10.10.4.101/c$/share/ -o username=digitelsms,password=InversionesDRC.2017 /mnt/'
+
+## HAVE TO ADD TO TH PATH /YYYY/MM/DD/recordigfile
+## SAMPLE /var/spool/asterisk/monitor/2019/05/09
+# ------------------------------------------------------------------------
+
+# CALLCENTER
+CDR_CALLCENTER_NAME=TEST
+CDR_TIME_INTERVAL=15000
+CDR_BATCH_LIMIT= 500;
+CDR_BATCH_LIMIT_SLOW= 250;
+# ------------------------------------------------------------------------
+
+# AUTOMATIC MARKER QUEUE FIRST CHAR
+# QUEUES WITH THIS PREFIX ARE CONSIDERED MARKER QUEUES
+CDR_MARKER_CHAR_ID=9
+# ------------------------------------------------------------------------
+
+# CALL TIME
+CDR_SHORTCALL_TIME=10
+CDR_SERVICE_IDEAL_TIME=19.9
+CDR_GOSTCALL_TIME=10
+# ------------------------------------------------------------------------
+
+# SPEED IN MILISECONS
+UPDATE_VERY_FAST=2000
+UPDATE_FAST= 5000
+UPDATE_MEDIUM= 20000
+UPDATE_SLOW= 30000
+UPDATE_VERY_SLOW = 3600000
+# ------------------------------------------------------------------------
+
+# DATE
+# MONDAY IS DAY:
+MONDAY_CONFIG=1
+TEST_DATE='2019-07-19'
+# ------------------------------------------------------------------------
+
+# COLORSCALE:
+COLORSCALE_NAME=Normal
+# ------------------------------------------------------------------------
+
+# AUTO REGISTER
+AUTOREGISTER=false
+# ------------------------------------------------------------------------

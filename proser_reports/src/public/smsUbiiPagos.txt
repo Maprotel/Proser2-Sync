@@ -1,0 +1,1 @@
+Fecha:2020-01-21,Hora:15:39:46,Cola:UbiiPagos,Recibidas:648,Atendidas:648,NS:96.30%,Meta:80%

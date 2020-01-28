@@ -1,0 +1,1 @@
+Fecha:2019-11-26,Hora:16:25:59,Cola:Cob,Recibidas:70,Atendidas:70,NS:98.57%,Meta:80%

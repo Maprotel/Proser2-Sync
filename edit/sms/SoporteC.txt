@@ -1,0 +1,1 @@
+Fecha:2019-11-26,Hora:16:26:04,Cola:SoporteC,Recibidas:342,Atendidas:342,NS:88.60%,Meta:80%

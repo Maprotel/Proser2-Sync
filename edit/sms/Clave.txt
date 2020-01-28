@@ -1,0 +1,1 @@
+Fecha:2019-11-26,Hora:16:25:59,Cola:Clave,Recibidas:33,Atendidas:33,NS:96.97%,Meta:90%

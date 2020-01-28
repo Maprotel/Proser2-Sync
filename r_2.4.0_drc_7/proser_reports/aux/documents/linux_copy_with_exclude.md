@@ -1,0 +1,9 @@
+rsync is fast and easy:
+
+rsync -av --progress sourcefolder /destinationfolder --exclude thefoldertoexclude
+You can use --exclude multiples times.
+
+rsync -av --progress sourcefolder /destinationfolder --exclude thefoldertoexclude --exclude anotherfoldertoexclude
+Note that the dir thefoldertoexclude after --exclude option is relative to the sourcefolder, i.e., sourcefolder/thefoldertoexclude.
+
+Also you can add -n for dry run to see what will be copied before performing real operation, and if everything is ok, remove -n from command line.

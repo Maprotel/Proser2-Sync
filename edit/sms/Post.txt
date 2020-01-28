@@ -1,0 +1,1 @@
+Fecha:2019-11-26,Hora:16:25:59,Cola:Post,Recibidas:223,Atendidas:223,NS:100.00%,Meta:90%

@@ -1,0 +1,1 @@
+Fecha:2019-11-26,Hora:16:25:59,Cola:Pide,Recibidas:51,Atendidas:51,NS:92.16%,Meta:80%

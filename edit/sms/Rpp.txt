@@ -1,0 +1,1 @@
+Fecha:2019-11-26,Hora:16:26:04,Cola:Rpp,Recibidas:76,Atendidas:76,NS:92.11%,Meta:80%

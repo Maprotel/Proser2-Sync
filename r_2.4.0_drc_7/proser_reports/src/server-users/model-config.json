@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "proserReports",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "proserReports",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "proserReports",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "proserReports",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "proserReports",
+    "public": false
+  },
+  "Email": {
+    "dataSource": "emailDs"
+  },
+  "Userbase": {
+    "dataSource": "proserReports",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": false
+    }
+  }
+}

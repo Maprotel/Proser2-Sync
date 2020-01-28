@@ -1,0 +1,209 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "ACL": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "RoleMapping": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "Role": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "Userbase": {
+    "dataSource": "proserInventory",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": false
+    }
+  },
+  "Email": {
+    "dataSource": "emailDs",
+    "public": true
+  },
+  "Filter": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "InvCalendar": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvCalendarDay": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvSchedule": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvScheduleDay": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvService": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvClient": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "HcaQueue": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "InvSupervisor": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "HcaAgent": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "MainCdr": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "InvBreak": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvQueue": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvAgent": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvScale": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvCampaign": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "MainAudit": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "InvReport": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvMenu": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvDashboard": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "InvDisplay": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "AuxColor": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "AuxHour": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "AuxInterval": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "AuxLine": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "UserSelection": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "HcbAgent": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "InvQueueConfig": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "InvSms": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "MainCallEntry": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "RealCurrentCalls": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "RealCurrentAgents": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "RealCurrentBreaks": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "MainQueueLog": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "InvAgentRole": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "System": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "Command": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "ProShowDisplay": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "ProScheduleChange": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "RecordSelection": {
+    "dataSource": "proserReports",
+    "public": true
+  },
+  "HcxChange": {
+    "dataSource": "proserInventory",
+    "public": true
+  },
+  "Employee": {
+    "dataSource": "proserInventory",
+    "public": true
+  }
+}
